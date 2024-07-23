@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.signup-left {
+    flex: 1;
+    background-color: #8cc63e; /* Match with index page primary color */
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-left h1 {
+    font-size: 36px;
+}
+
+.signup-left p {
+    font-size: 18px;
+}
+
+.signup-right {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-right h2 {
+    margin-bottom: 20px;
+    color: #333; /* Darker text color for readability */
+}
+
+.signup-right form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-right input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.signup-right button {
+    background-color: #6dbf1c; /* Match button color with index page */
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.signup-right p {
+    margin-top: 20px;
+}
+
+.signup-right a {
+    color: #8cc63e; /* Match link color with primary color */
+    text-decoration: none;
+}
+
+.social-signup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 48%;
+    border-radius: 4px;
+}
+
+.social-button img {
+    margin-right: 10px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
