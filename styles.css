@@ -68,11 +68,17 @@ header nav ul li a {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+    width: 300px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card img, .post-card img {
     width: 100%;
-    height: auto;
+    height: 70%;
+    object-fit: cover;
 }
 
 .view-all-products, .view-more-reviews, .view-profile {
@@ -90,4 +96,3 @@ footer {
     padding: 20px;
     background-color: #f1f1f1;
 }
-

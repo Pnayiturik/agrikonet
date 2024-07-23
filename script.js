@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const products = [
-    { name: 'Product 1', price: '$5.00', image: 'images/placeholder.avif' },
-    { name: 'Product 2', price: '$10.00', image: 'images/carrots.jpg' },
-    { name: 'Product 3', price: '$15.00', image: 'images/placeholder.avif' }
+    { name: 'tomatoes', price: '$5.00', image: 'images/download.jpeg' },
+    { name: 'carrots', price: '$10.00', image: 'images/R.jpeg' },
+    { name: 'yellow pears', price: '$15.00', image: 'images/download (1).jpeg' }
 ];
 
 const blogPosts = [
@@ -28,7 +28,7 @@ function loadProducts() {
         productCard.className = 'product-card';
         productCard.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
-            <p>${product.name}</p>
+            <h3>${product.name}</h3>
             <p>${product.price}</p>
         `;
         productContainer.appendChild(productCard);
